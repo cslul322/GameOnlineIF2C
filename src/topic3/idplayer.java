@@ -18,10 +18,10 @@ public class idplayer {
    ArrayList<Player> j5 = new ArrayList<Player>();
    j5.add(new Player("_______________________________________\n"));
    j5.add(new Player("DragonSlayer\t\t="+a));
-   j5.add("new Player("xXxPssySl4y3rxXx\t="+c));
-   j5.add("new Player("Heslignign\t\t="+d));
-   j5.add("new Player("CykaBlade\t\t="+b));
-   j5.add("new Player("Jumlah Trophy\t\t="+trophy1));
+   j5.add(new Player("xXxPssySl4y3rxXx\t="+c));
+   j5.add(new Player("Heslignign\t\t="+d));
+   j5.add(new Player("CykaBlade\t\t="+b));
+   j5.add(new Player("Jumlah Trophy\t\t="+trophy1));
    for(Player i: j5){
    System.out.println(i.getId());
    }
@@ -36,10 +36,10 @@ public class idplayer {
    ArrayList<Player> j6 = new ArrayList<Player>();
    j6.add(new Player("_______________________________________\n"));
    j6.add(new Player("Chum         ="+a));
-   j6.add("new Player("Sponge      ="+c));
-   j6.add("new Player("Star        ="+d));
-   j6.add("new Player("Squirrel    ="+b));
-   j6.add("new Player("Jumlah Trophy\t\t="+trophy2));
+   j6.add(new Player("Sponge      ="+c));
+   j6.add(new Player("Star        ="+d));
+   j6.add(new Player("Squirrel    ="+b));
+   j6.add(new Player("Jumlah Trophy\t\t="+trophy2));
    for(Player i: j6){
    System.out.println(i.getId());
    }
@@ -54,10 +54,10 @@ public class idplayer {
    ArrayList<Player> j7 = new ArrayList<Player>();
    j7.add(new Player("_______________________________________\n"));
    j7.add(new Player("DragonFire        ="+a));
-   j7.add("new Player("Patrick          ="+c));
-   j7.add("new Player("Earth            ="+d));
-   j7.add("new Player("Thunder          ="+b));
-   j7.add("new Player("Jumlah Trophy\t\t="+trophy3));
+   j7.add(new Player("Patrick          ="+c));
+   j7.add(new Player("Earth            ="+d));
+   j7.add(new Player("Thunder          ="+b));
+   j7.add(new Player("Jumlah Trophy\t\t="+trophy3));
    for(Player i: j7){
    System.out.println(i.getId());
    }
